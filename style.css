@@ -1,0 +1,40 @@
+:root{
+    --cor-de-fundo:#c73c3c;
+    --verde:#f7fcfc;
+    --branco: #fd1aea;
+    --botao-ativo: #440e40;
+    --botao-inativo: #0a1458;
+    --texto-de-fundo:#5e6278;
+}
+
+
+body{
+    background-color: rgb(30, 48, 24);
+    color: rgb(241, 13, 241);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    text-align: center;
+}
+.botão{
+    background-color: rgb(24, 163, 168);
+    font-size: 40px;
+    border-radius: 10px;
+    color: rgb(237, 238, 231);
+    margin: 20px;
+    padding: 20px;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+.imagem1{
+    width: 15%;
+    height: 15%;
+}
+.meta{
+  display: flex;
+}
